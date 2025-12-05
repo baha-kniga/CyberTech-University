@@ -1,0 +1,38 @@
+/*body*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/*header*/
+
+/*section blockOfAnnouncements*/
+
+.blockOfAnnouncements {
+    width: 80%;
+    margin: 0 auto 5.6rem auto;
+}
+
+.blockOfAnnouncements h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.announcements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.announcement {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 27%;
+    min-width: 126px;
+    padding: 2%;
+    border-radius: 50px;
+}
